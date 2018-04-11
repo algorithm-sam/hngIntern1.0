@@ -1,0 +1,42 @@
+body{
+	background: rgba(0,0,0,0.8) url('../images/figma_image2.jpg') no-repeat;
+	background-blend-mode: multiply;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:200px;
+	font-family: arial;
+}
+
+
+.customBox{
+	box-sizing: border-box;
+	width:600px;
+	background: #fff;
+	border-radius: 2rem;
+	padding: 40px;
+	text-transform: uppercase;
+}
+
+.heading{
+	font-size: 20px;
+	text-align: center;
+}
+
+.heading span{
+	color: #01adfe;
+}
+
+.logoHolder{
+	box-sizing: inherit;
+	text-align: center;
+	padding: 20px 0;
+}
+.logoHolder img{
+	width:50%;
+}
+
+.timeContainer{
+	font-weight: bold;
+	text-align: center;
+}
